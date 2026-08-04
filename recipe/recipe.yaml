@@ -27,7 +27,7 @@ requirements:
     - xarray
     - cftime
     - dask
-    - xgcm
+    - xgcm >=0.10.1
     - numba
     - xesmf
 
