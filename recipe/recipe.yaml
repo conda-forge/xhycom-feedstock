@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.0"
+  version: "0.1.1"
 
 package:
   name: xhycom
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/x/xhycom/xhycom-${{ version }}.tar.gz
-  sha256: c5fdb9a9b547c4df89cacd47a8a0c155395db07b013c06e99ba759f0c35ee03a
+  sha256: d86c05c838a9779997be1c011c193d6090ffa8dfecfc7d11473c9a5215d9f32f
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - xarray
     - cftime
     - dask
-    - xgcm
+    - xgcm >=0.10.1
     - numba
     - xesmf
 
